@@ -34,17 +34,19 @@ print("B =", B)
 print("Modified list =", my_list)
 #Strings
 string1 = "Hello"
+print(string1.upper())
+print(string1.lower())
 print("string1 =", string1)
-print("string1 repeated 3 times =", string1 * 3)
-print("First letter of string1 =", string1[0])
-print("Slice string1[1:4] =", string1[1:4])
+print( string1 * 3)
+print(string1[0])
+print( string1[1:4])
+
 #variables
 x = 10
 y = 3
 z = x + y
 print("x =", x, "y =", y, "z =", z)
 
-# You can also reassign values
 x = x * 2
 print("New value of x:", x)
 
@@ -96,3 +98,8 @@ print("Y value:", point[1])
 (x, y) = point
 print("Unpacked X:", x)
 print("Unpacked Y:", y)
+
+if __name__ == "__main__":
+    """
+    I figure I have to put something here
+    """
